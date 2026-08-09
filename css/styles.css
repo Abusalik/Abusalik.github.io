@@ -414,6 +414,27 @@ a {
     box-shadow: 0 10px 25px rgba(0,0,0,0.06);
 }
 
+.cert-card.has-image {
+    padding: 0;
+    flex-direction: column;
+    overflow: hidden;
+    gap: 0;
+}
+
+.cert-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.cert-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .cert-icon, .skill-icon {
     font-size: 1.5rem;
     color: var(--primary-color);
